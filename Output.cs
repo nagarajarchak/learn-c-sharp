@@ -16,7 +16,6 @@ namespace LearnCSharp
 			 */
 			Console.Write("This is on a new line!");
             Console.Write("This is on the same line again!");
-			Console.WriteLine("");
         }
 	}
 }

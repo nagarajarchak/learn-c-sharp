@@ -8,11 +8,8 @@ namespace LearnCSharp
         {
             Console.WriteLine("Hello World!");
 
-            Console.WriteLine("\n-- Output --\n");
             Output output = new Output();
-
-            Console.WriteLine("\n-- Variable --\n");
-            Variable variable = new Variable();          
+            
         }
     }
 }
