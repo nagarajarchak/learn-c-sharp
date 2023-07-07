@@ -12,7 +12,10 @@ namespace LearnCSharp
             Output output = new Output();
 
             Console.WriteLine("\n-- Variable --\n");
-            Variable variable = new Variable();          
+            Variable variable = new Variable();
+
+            Console.WriteLine("\n-- Type Casting --\n");
+            TypeCasting typeCasting = new TypeCasting();
         }
     }
 }
