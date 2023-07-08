@@ -13,8 +13,15 @@ namespace LearnCSharp
 
             // Explicit type conversion
             double doubleNumberTwo = 10.56;
-            int intNumber = (int)doubleNumberTwo;
-            Console.WriteLine(intNumber);
+            int intNumberTwo = (int) doubleNumberTwo;
+            Console.WriteLine(intNumberTwo);
+
+            // Type conversion methods
+            int intNumberThree = 15;
+            double doubleNumberThree = Convert.ToDouble(intNumberThree);
+            string numStr = Convert.ToString(intNumberThree);
+            Console.WriteLine(doubleNumberThree);
+            Console.WriteLine(numStr);
         }
 	}
 }
