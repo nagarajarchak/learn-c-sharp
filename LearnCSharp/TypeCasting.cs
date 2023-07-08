@@ -6,9 +6,14 @@ namespace LearnCSharp
 	{
 		public TypeCasting()
 		{
-            double doubleNumber = 10.56;
-            int intNumber = (int) doubleNumber;
+            // Implicit type conversion
+            int intNumberOne = 10;
+            double doubleNumberOne = intNumberOne;
+            Console.WriteLine(doubleNumberOne);
 
+            // Explicit type conversion
+            double doubleNumberTwo = 10.56;
+            int intNumber = (int)doubleNumberTwo;
             Console.WriteLine(intNumber);
         }
 	}
