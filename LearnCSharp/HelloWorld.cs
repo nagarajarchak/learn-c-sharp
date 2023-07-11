@@ -16,6 +16,9 @@ namespace LearnCSharp
 
             Console.WriteLine("\n-- Type Casting --\n");
             TypeCasting typeCasting = new TypeCasting();
+
+            Console.WriteLine("\n-- Conditional Statements --\n");
+            Condition condition = new Condition();
         }
     }
 }
