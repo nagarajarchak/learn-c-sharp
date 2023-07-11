@@ -13,7 +13,6 @@ namespace LearnCSharp
             int time = 15;
             string result = (time < 18) ? "Passed" : "Failed";
             Console.WriteLine(result);
-
         }
 	}
 }
