@@ -12,6 +12,14 @@ namespace LearnCSharp
                 Console.WriteLine(i);
                 i++;
             }
+
+            int j = 0;
+            do
+            {
+                Console.WriteLine(j);
+                j++;
+            }
+            while (j < 5);
         }
 	}
 }
