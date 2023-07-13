@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace LearnCSharp
 {
 	public class Condition

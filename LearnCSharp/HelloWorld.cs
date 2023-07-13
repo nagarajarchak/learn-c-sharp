@@ -19,6 +19,9 @@ namespace LearnCSharp
 
             Console.WriteLine("\n-- Conditional Statements --\n");
             Condition condition = new Condition();
+
+            Console.WriteLine("\n-- Loops --\n");
+            Loop loop = new Loop();
         }
     }
 }
