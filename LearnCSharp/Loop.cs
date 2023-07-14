@@ -20,6 +20,12 @@ namespace LearnCSharp
                 j++;
             }
             while (j < 5);
+
+            string[] arr = { "str1", "str2", "str3", "str4" };
+            foreach(string element in arr)
+            {
+                Console.WriteLine(element);
+            }
         }
 	}
 }
