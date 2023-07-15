@@ -22,6 +22,9 @@ namespace LearnCSharp
 
             Console.WriteLine("\n-- Loops --\n");
             Loop loop = new Loop();
+
+            Console.WriteLine("\n-- Switch Case --\n");
+            Switch switchCase = new Switch();
         }
     }
 }
